@@ -1,12 +1,11 @@
-4b570ace573c6b68063c97321f149102 *DESCRIPTION
+f11a2c64c825671dea5b64bd7618cc86 *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
 601396fa2bb3def18f7011aa58c20d8c *NEWS
-bc58c4bb4a32cf8fd95610ef5e1bbbbc *R/CSS.R
-9a6c3f1dfc6c0bfcfa4e415d6919f240 *README.md
+73f195fd5b3428286b86bbb949487dff *R/CSS.R
 eb909d6af5d1d3042586876f1a7f15aa *inst/doc/CSS.R
 7069266f0ca56a48d84563d209367adf *inst/doc/CSS.Rnw
 ca24a8e0d53bc2408d6480056fda3a23 *inst/doc/CSS.pdf
-5c2f33c768df038c2d0ee1ff414cbd42 *inst/tests/testDataExtraction.R
+d3c09b7fffde5167e8f360e96f343541 *inst/tests/testDataExtraction.R
 6323ba3f097b89e9b019830821dd02c2 *man/CSS-package.Rd
 d7e179c5fa55ed41615c73fc5c09b053 *man/cssApply.Rd
 c0f488601af6ec76d65fa0b1f3da86b4 *man/cssApplyInNodeSet.Rd

@@ -18,7 +18,7 @@ doc <- "<html>
   </div>
 <DIV CLASS='TEST' name='Hello world'>insensitive</DIV>
 <DIV id='test_2' CLASS='test_2' name='test 2'>test 2</DIV>
-<DIV id='test-3' CLASS='test-3 lastTest' name='test 3'>test 3</DIV>
+<DIV id='test-3' CLASS='test-3 lastTest' name='test 3' test-attr='glop'>test 3</DIV>
 </body>
 </html>"
 
@@ -88,5 +88,9 @@ test_that("functions are insensitive to valid punctuations", {
   expect_equal(cssApply(doc, ".test-3", cssCharacter), 
                c("test 3"))
   expect_equal(cssApply(doc, "#test-3", cssCharacter), 
+               c("test 3"))
+  expect_equal(cssApply(doc, "*[test-attr='glop']", cssCharacter), 
+               c("test 3"))
+  expect_equal(cssApply(doc, "*[test-attr]", cssCharacter), 
                c("test 3"))
 })
