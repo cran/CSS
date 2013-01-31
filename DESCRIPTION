@@ -1,7 +1,7 @@
 Package: CSS
 Type: Package
 Title: Extract information from an html document with CSS selectors
-Version: 1.0
+Version: 1.0.1
 Date: 2013-01-31
 Author: Francois Guillem <guillem.francois@gmail.com>
 Maintainer: Francois Guillem <guillem.francois@gmail.com>
@@ -11,7 +11,7 @@ Description: The package provides functions that facilitate extraction
 License: GPL (>= 2)
 Depends: XML, stringr
 Suggests: testthat
-Packaged: 2013-05-28 09:07:07 UTC; francois
+Packaged: 2013-06-10 12:53:37 UTC; francois
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2013-05-28 11:14:38
+Date/Publication: 2013-06-10 15:05:27
